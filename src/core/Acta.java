@@ -1,4 +1,4 @@
-package paquete.uno;
+package core;
 
 public class Acta {
 
