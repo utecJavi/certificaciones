@@ -4,7 +4,6 @@ import java.util.Date;
 
 public class Eventos {
 
-	
 	private Integer id;
 	private Date fecha;
 
@@ -12,16 +11,15 @@ public class Eventos {
 		// TODO Auto-generated constructor stub
 	}
 
-	
-	
 	public Eventos(Integer id, Date fecha) {
 		super();
 		this.id = id;
 		this.fecha = fecha;
 	}
 
-
-
+	public void listadoEventosUsuario(Integer idUsuario) {
+		System.out.println("Sin implementar");
+	}
 
 	public Integer getId() {
 		return id;
@@ -38,7 +36,5 @@ public class Eventos {
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
 	}
-	
-	
-	
+
 }
